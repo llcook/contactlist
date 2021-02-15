@@ -18,8 +18,8 @@ module.exports = function(app) {
             firstName,
             lastName,
             contactType,
-            phoneNumber,
-            emailAddress
+            phoneNumber: phoneNumber || null,
+            emailAddress: emailAddress || null
         }
 
         db.Contact.create(newContact).then(function(contact){

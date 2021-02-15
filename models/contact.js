@@ -19,7 +19,7 @@ module.exports = function(sequelize, DataTypes) {
         // contactType (VARCHAR, Default value "Personal")       
         contactType: {
             type: DataTypes.STRING,
-            defaultValue: "Personal"
+            defaultValue: "--"
         },
         // phoneNumber (VARCHAR, NULL, length 10 characters, numbers only)
         phoneNumber: {

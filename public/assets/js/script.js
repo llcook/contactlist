@@ -5,7 +5,7 @@ $("#submit").on("click", function(event) {
         firstName: $("#firstName").val().trim(),
         lastName: $("#lastName").val().trim(),
         contactType: $("#contactType").val(),
-        phoneNumber: $("#phoneNumber").val().trim(),
+        phoneNumber: $("#phoneNumber").val().trim(), // if nothing is here, we get an empty string – a falsy value, like zero, null, undefined, ""
         emailAddress: $("#emailAddress").val().trim()
     }
 
